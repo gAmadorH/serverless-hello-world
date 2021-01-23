@@ -1,5 +1,6 @@
 # serverless-hello-world
 
+![Node.js CI](https://github.com/gAmadorH/serverless-hello-world/workflows/Node.js%20CI/badge.svg)
 [![dependencies status](https://david-dm.org/gAmadorH/serverless-hello-world.svg)](https://david-dm.org/gAmadorH/serverless-hello-world)
 [![dev dependencies status](https://david-dm.org/gAmadorH/serverless-hello-world/dev-status.svg)](https://david-dm.org/gAmadorH/serverless-hello-world#info=devDependencies)
 [![license](https://img.shields.io/github/license/gAmadorH/serverless-hello-world.svg?color=blue)](https://github.com/gAmadorH/serverless-hello-world/blob/master/LICENSE)
