@@ -1,7 +1,7 @@
 {
-  "name": "serverless-test",
+  "name": "serverless-hello-world",
   "version": "1.0.0",
-  "description": "Serverless Framework hello world test.",
+  "description": "Hello World application with Serverless Framework.",
   "main": "handler.js",
   "scripts": {
     "lint": "eslint .",
