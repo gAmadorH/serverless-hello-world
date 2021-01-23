@@ -1,10 +1,12 @@
-# serverless-test
+# serverless-hello-world
 
-Serverless Framework hello world test.
+[![license](https://img.shields.io/github/license/gAmadorH/serverless-hello-world.svg?color=blue)](https://github.com/gAmadorH/serverless-hello-world/blob/master/LICENSE)
+
+Hello World application with Serverless Framework.
 
 ## requirements
 
-- [NodeJS v12.18.3](https://nodejs.org/en/)
+- [NodeJS v12.18.3+](https://nodejs.org/en/) or [nvm v0.37.0+](https://github.com/nvm-sh/nvm/releases/tag/v0.37.0)
 - [AWS Account](https://aws.amazon.com/)
   - Access Key Id (key)
   - Secret Access Key (secret)
@@ -32,6 +34,15 @@ sls config credentials \
 
 This command has configured the AWS credentials in the `default profile`.  
 You can use the `--profile` flag to specific a profile.
+`development` profile for example:
+
+```bash
+sls config credentials \
+  --provider aws \
+  --profile development \
+  --key your-aws-key \
+  --secret your-aws-secret
+```
 
 ## Create a project boilerplate
 
@@ -77,10 +88,16 @@ functions:
 
 ## Deploy your project
 
-To deploy your new function run:
+To deploy your new function run (using default profile):
 
 ```bash
 sls deploy
+```
+
+If you want to use other profile, you can specify using `--aws-profile` option:
+
+```bash
+sls deploy --aws-profile development
 ```
 
 When you execute the command, information about your service appears in your terminal,
@@ -104,7 +121,15 @@ To watch logs run:
 ```bash
 sls logs -t -f hello
 # or
-sls log --tail --function hello
+sls logs --tail --function hello
+```
+
+The function name is defined in the `serverless.yml`:
+
+```yml
+functions:
+  hello: # this is the function name
+    handler: handler.hello
 ```
 
 ## Destroy
@@ -114,3 +139,7 @@ To destroy the infrastructure created by serverless framework run:
 ```bash
 sls remove
 ```
+
+## License
+
+[MIT.](./LICENSE) Copyright (c)
