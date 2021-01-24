@@ -7,6 +7,7 @@ module.exports = {
   },
   extends: [
     'airbnb-base',
+    'plugin:yml/standard',
   ],
   parserOptions: {
     ecmaVersion: 12,
