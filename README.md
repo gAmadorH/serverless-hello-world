@@ -7,6 +7,7 @@
 [![license](https://img.shields.io/github/license/gAmadorH/serverless-hello-world.svg?color=blue)](https://github.com/gAmadorH/serverless-hello-world/blob/master/LICENSE)
 [![code style](https://img.shields.io/badge/code_style-eslint-blueviolet.svg)](https://eslint.org/)
 [![style guide](https://img.shields.io/badge/style_guide-airbnb-ff69b4.svg)](https://github.com/airbnb/javascript)
+[![GitHub issues](https://img.shields.io/github/issues/gAmadorH/serverless-hello-world)](https://github.com/gAmadorH/serverless-hello-world/issues)
 
 Hello World application with Serverless Framework.
 
