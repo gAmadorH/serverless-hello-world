@@ -1,8 +1,10 @@
 {
   "recommendations": [
+    "abumalick.vscode-nvm",
     "davidanson.vscode-markdownlint",
     "dbaeumer.vscode-eslint",
     "editorconfig.editorconfig",
+    "orta.vscode-jest",
     "streetsidesoftware.code-spell-checker"
   ]
 }
